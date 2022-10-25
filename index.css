@@ -9,10 +9,21 @@ html,body {
     width:50%;
 }
 #title-container2 {
-    width:50%;    
+    width:50%;   
+    display:flex;
+    justify-content:space-around;
 }
 #central-boxes {
+    /*flex-wrap: wrap;*/
     display: grid;
     grid-template-areas: 
+    ". . ."
     ". . .";
+}
+.image-direction {
+    display: flex;
+    flex-wrap:wrap;
+}
+#top-image {
+    width:100%;
 }
